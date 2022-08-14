@@ -1338,7 +1338,7 @@ section {
 .contact .info-box {
   color: #0e000e;
   text-align: center;
-  box-shadow: 0 0 30px rgba(248, 249, 251, 0.6);
+  box-shadow: 0 0 30px rgba(0, 4, 13, 0.6);
   padding: 20px 0 30px 0;
 }
 
@@ -1392,7 +1392,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: rgb(10, 0, 0);
   text-align: center;
   padding: 15px;
 }
