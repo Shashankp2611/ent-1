@@ -65,15 +65,17 @@ h6 {
 --------------------------------------------------------------*/
 #preloader {
   position: absolute;
- margin-left: -400px;
-  margin-top: -300px;
+ margin-left: -200px;
+  margin-top: -200px;
   top: 0;
+  align-content: flex-end;
 
   background-size: auto;
   z-index: auto;
   
   overflow: hidden;
- 
+  
+
   
   
 }
@@ -82,7 +84,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 7px) {
+@media screen and (max-width: 720px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
