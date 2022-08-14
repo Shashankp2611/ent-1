@@ -1392,7 +1392,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: rgb(10, 0, 0);
+  background: #fff;
   text-align: center;
   padding: 15px;
 }
